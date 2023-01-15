@@ -19,6 +19,29 @@ body {
     margin-bottom: 30px;
 }
 
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.nav-title {
+    font-size: 35px;
+}
+
+.nav>ul {
+    display: flex;
+    list-style: none;
+}
+
+nav>ul>li {
+    margin-left: 4em;
+    font-size: 13px;
+    color: #424242;
+    font-weight: 600;
+}
+
 .header-description {
     text-align: center;
     width: 70%;
@@ -29,11 +52,12 @@ body {
     font-weight: 700;
     font-size: 54px;
     line-height: 60px;
+    margin-bottom: 30px;
 }
 
 .primary-para {
     color: #727272;
-    font-size: 13px;
+    font-size: 12px;
     line-height: 22px;
 }
 
@@ -46,6 +70,7 @@ body {
     font-weight: 600;
     font-size: 18px;
     color: #FFFFFF;
+    margin-top: 30px;
 }
 
 /* banner */
@@ -63,8 +88,8 @@ body {
     padding: 30px;
 }
 
-.team>div {
-    width: 50%;
+.team>.team-image {
+    width: 100%;
 }
 
 .team-image {
@@ -78,17 +103,22 @@ body {
     width: 100%;
 }
 
-.team-description>h1 {
+.team-description > div {
+    padding: 30px;
+}
+
+.team-description>div>h1 {
     font-size: 35px;
 }
 
-.team-description>h1>span {
+.team-description>div>h1>span {
     font-weight: 600;
     color: #727272;
 }
 
 .team-feature {
     color: #FF900E;
+    margin-bottom: 20px;
 }
 
 /* Features */
@@ -109,7 +139,7 @@ body {
 }
 
 .feature-image {
-    width: 50%;
+    width: 55%;
 }
 
 .feature-title {
@@ -143,7 +173,7 @@ body {
     font-size: 20px;
     position: relative;
     top: -90px;
-    left: 35px;
+    left: 10px;
 }
 
 .big-button>span {
@@ -152,7 +182,6 @@ body {
 }
 
 /* fact */
-.fact {}
 
 .facts-title {
     font-size: 30px;
@@ -197,4 +226,5 @@ body {
     margin-top: 100px;
     margin-bottom: 200px;
     padding: 20px;
+
 }
