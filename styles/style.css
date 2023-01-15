@@ -119,11 +119,6 @@ body {
     margin-bottom: 15px;
 }
 
-/* 
-.feature-data {
-    margin: 20px;
-} */
-
 .feature-items {
     margin-top: 45px;
     line-height: 20px;
@@ -154,4 +149,31 @@ body {
 .big-button>span {
     font-size: 40px;
     font-weight: 700;
+}
+
+/* fact */
+.fact {}
+
+.facts-title {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.fact-items {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.fact-item {
+    text-align: center;
+    border: 1px solid #ff8f0ece;
+    border-radius: 5px;
+    height: 175px;
+    width: 185px;
+    padding-top: 40px;
+}
+
+.fact-item h2 {
+    margin: 10px 0;
 }
