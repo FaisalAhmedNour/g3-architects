@@ -246,6 +246,7 @@ nav>ul>li {
 /* sub */
 .sub {
     text-align: center;
+    margin-top: 50px;
 }
 .form label {
     font-size: 22px;
