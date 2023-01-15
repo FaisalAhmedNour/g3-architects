@@ -19,11 +19,16 @@ body {
     margin-bottom: 30px;
 }
 
+.header>.section {
+    margin-top: 0;
+}
+
 .nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 100px;
+    margin-top: 50px;
 }
 
 .nav-title {
