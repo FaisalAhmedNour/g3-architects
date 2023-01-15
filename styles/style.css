@@ -203,6 +203,24 @@ nav>ul>li {
     padding-top: 40px;
 }
 
+.fact-item:hover {
+    transform: rotate(12deg);
+}
+
+.fact-item:hover>div {
+    transform: rotate(-12deg);
+}
+
+.fact-item>div>h2 {
+    color: #424242;
+    font-weight: 800;
+}
+
+.fact-item>div>p {
+    color: #424242;
+    font-weight: 600;
+}
+
 .fact-item h2 {
     margin: 10px 0;
 }
@@ -289,9 +307,9 @@ nav>ul>li {
         gap: 1.5em;
     }
 
-    .Sponspors-items> img {
+    .Sponspors-items>img {
         width: 50%;
-       
+
     }
 
     .footer {
