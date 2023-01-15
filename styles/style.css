@@ -243,6 +243,37 @@ nav>ul>li {
     filter: grayscale(100%);
 }
 
+/* sub */
+.sub {
+    text-align: center;
+}
+.form label {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+#subscribe {
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #151414;
+    width: 250px;
+    height: 50px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 15px;
+}
+
+#subscribe-button {
+    color: white;
+    font-size: 20px;
+    margin-top: 15px;
+    padding: 15px 28px;
+    border-radius: 5px;
+    border: none;
+    background-color: #005FAC;
+}
+
 /* footer */
 .footer {
     text-align: center;
