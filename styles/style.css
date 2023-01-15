@@ -177,3 +177,16 @@ body {
 .fact-item h2 {
     margin: 10px 0;
 }
+
+/* Sponspors */
+.Sponspors {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.Sponspors-items {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
