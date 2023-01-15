@@ -190,3 +190,11 @@ body {
     margin: 50px 0;
 }
 
+/* footer */
+.footer {
+    text-align: center;
+    background-color: #4242421a;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    padding: 20px;
+}
